@@ -29,6 +29,14 @@ const GlobalStyle = createGlobalStyle`
     a {
         color: inherit;
     }
+
+    p {
+        color: var(--lavender-secondary);
+    }
+    .secondary-heading {
+        font-size: 3rem;
+        color: var(--purple-primary);
+    }
 `;
 
 export default GlobalStyle;

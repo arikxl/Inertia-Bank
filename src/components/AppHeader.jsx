@@ -4,7 +4,6 @@ import bg from '../assets/images/bg.svg';
 import HeaderContent from './HeaderContent';
 import Navbar from './Navbar';
 
-console.log('test')
 const AppHeader = () => {
     return (
         <HeaderStyled>

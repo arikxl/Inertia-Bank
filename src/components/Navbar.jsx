@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
 
-import ButtonPrimary from './ButtonPrimary';
 import logo from '../assets/images/logo.svg';
+import ButtonPrimary from './ButtonPrimary';
 
 
 const Navbar = () => {
@@ -41,4 +41,4 @@ const NavbarStyled = styled.nav`
 
 `;
 
-export default Navbar
+export default Navbar;
