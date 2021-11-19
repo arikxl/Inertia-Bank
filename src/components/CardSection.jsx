@@ -1,10 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-
 import { InnerLayout } from '../styles/layouts';
 import creditCard from '../assets/images/creditcard.svg';
-
 
 
 const CardSection = () => {
@@ -32,8 +30,22 @@ const CardSection = () => {
 }
 
 const CardSectionStyled = styled.section`
-    card-container{
-        background-color: red;
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        @media screen and (max-width: 845px){
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .card-right{
+            display: flex;
+            justify-content: flex-end;
+            img{filter: drop-shadow(0px 50px 100px rgba(22, 25, 79, 0.15));}
+        }
+        .card-left{
+            p{
+                padding: 1rem 0;
+            }
+        }
     }
 `;
 
