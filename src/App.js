@@ -1,9 +1,12 @@
-import './App.css';
+import AppHeader from './components/AppHeader';
+import { OuterLayout } from './styles/layouts';
 
 function App() {
   return (
     <div className="App">
-  bank
+        <AppHeader />
+      <OuterLayout>
+      </OuterLayout>
     </div>
   );
 }
