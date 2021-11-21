@@ -1,9 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { InnerLayout } from '../styles/layouts';
 import creditCard from '../assets/images/creditcard.svg';
-
+import { InnerLayout } from '../styles/layouts';
 
 const CardSection = () => {
     return (

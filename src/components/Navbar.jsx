@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import logo from '../assets/images/logo.svg';
 import ButtonPrimary from './ButtonPrimary';
 
-
 const Navbar = () => {
     return (
         <NavbarStyled>
@@ -25,7 +24,7 @@ const Navbar = () => {
             <ButtonPrimary title={"Sign Up"} />
         </NavbarStyled>
     )
-}
+};
 
 const NavbarStyled = styled.nav`
     display: flex;

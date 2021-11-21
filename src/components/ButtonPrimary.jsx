@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-
 const ButtonPrimary = ({title}) => {
     return (
         <ButtonStyled>
@@ -22,5 +21,4 @@ const ButtonStyled = styled.button`
     cursor: pointer;
 `;
 
-
-export default ButtonPrimary
+export default ButtonPrimary;

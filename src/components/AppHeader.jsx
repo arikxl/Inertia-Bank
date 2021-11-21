@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
+
 import bg from '../assets/images/bg.svg';
-import HeaderContent from './HeaderContent';
 import Navbar from './Navbar';
+import HeaderContent from './HeaderContent';
 
 const AppHeader = () => {
     return (
@@ -28,4 +29,3 @@ const HeaderStyled = styled.header`
 `;
 
 export default AppHeader;
-

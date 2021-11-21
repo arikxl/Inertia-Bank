@@ -3,10 +3,9 @@ import styled from 'styled-components';
 
 import ring from '../assets/images/ring.svg';
 import phone from '../assets/images/phone.svg';
-import SecondaryButton from './SecondaryButton';
 import message_pink from '../assets/images/message_pink.svg';
 import message_blue from '../assets/images/message_blue.svg';
-
+import SecondaryButton from './SecondaryButton';
 
 const HeaderContent = () => {
     return (

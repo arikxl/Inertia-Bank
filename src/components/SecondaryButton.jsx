@@ -11,7 +11,7 @@ const SecondaryButton = ({title}) => {
 
         </SecondaryButtonStyled>
     )
-}
+};
 
 const SecondaryButtonStyled = styled.button`
     background-color: var(--dark-primary);
