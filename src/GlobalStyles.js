@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
     --neutral-light: #F2F6FF;
     --lavender-secondary: #6A6D9E;
     --dark-primary: #16194F;
-    --border-colour: #CAB6F1;
+    --border-color: #CAD6F1;
     }
 
     *{
