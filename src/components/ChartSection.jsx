@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import chart from '../assets/images/chart.svg';
 import ChartStats from './ChartStats';
 import { InnerLayout } from '../styles/layouts';
+import ButtonAnimated from './ButtonAnimated';
 
 
 const ChartSection = () => {
@@ -21,6 +22,16 @@ const ChartSection = () => {
                         </div>
                     </div>
                     <div className="chart-right">
+                        <h2 className="secondary-heading">
+                            Manage your finances like a pro in no time
+                        </h2>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                             Libero laborum qui provident voluptatum numquam atque odit et,
+                              similique labore, harum quibusdam consequatur
+                               tempore ipsa omnis.
+                        </p>
+                        <ButtonAnimated title="Learn More"/>
                     </div>
                 </div>
             </InnerLayout>
@@ -33,10 +44,11 @@ const ChartStyled = styled.section`
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         .chart-left {
+            width: 80%;
             .stats {
                 img {
                     box-shadow: 0px 25px 50px rgba(22, 25, 79, 0.05);
-                    border-radius: 50px;
+                    border-radius:65px;
                     width: 100%;
                 }
                 .stats-wrapper {
@@ -44,6 +56,12 @@ const ChartStyled = styled.section`
                     justify-content: space-between;
                     padding-bottom: 1.3rem;                    
                 }
+            }
+        }
+        .chart-right {
+            padding-left: 2rem;
+            p {
+                padding: 1.3rem 0;
             }
         }
     }

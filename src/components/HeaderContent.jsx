@@ -5,7 +5,7 @@ import ring from '../assets/images/ring.svg';
 import phone from '../assets/images/phone.svg';
 import message_pink from '../assets/images/message_pink.svg';
 import message_blue from '../assets/images/message_blue.svg';
-import SecondaryButton from './SecondaryButton';
+import ButtonSecondary from './ButtonSecondary';
 
 const HeaderContent = () => {
     return (
@@ -19,7 +19,7 @@ const HeaderContent = () => {
                         Voluptate ratione iure distinctio ipsum sed alias temporibus,
                         itaque soluta voluptatibus quasi reiciendis ducimus maxime facere.
                     </p>
-                    <SecondaryButton title="Register Now" />
+                    <ButtonSecondary title="Register Now" />
                 </div>
             </div>
             <div className="right-content">

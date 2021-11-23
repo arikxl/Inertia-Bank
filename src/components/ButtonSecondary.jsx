@@ -3,19 +3,19 @@ import styled from 'styled-components';
 
 import arrow from '../assets/images/arrow.svg';
 
-const SecondaryButton = ({title}) => {
+const ButtonSecondary = ({title}) => {
     return (
-        <SecondaryButtonStyled>
+        <ButtonSecondaryStyled>
             {title} 
             <img src={arrow} alt="" />
 
-        </SecondaryButtonStyled>
+        </ButtonSecondaryStyled>
     )
 };
 
-const SecondaryButtonStyled = styled.button`
+const ButtonSecondaryStyled = styled.button`
     background-color: var(--dark-primary);
-    padding: .7rem 2rem;
+    padding: 1rem 2rem;
     font-family: inherit;
     font-size: inherit;
     color: inherit;
@@ -31,4 +31,4 @@ const SecondaryButtonStyled = styled.button`
     }
 `;
 
-export default SecondaryButton
+export default ButtonSecondary
