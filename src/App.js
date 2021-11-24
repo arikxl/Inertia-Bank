@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import AppHeader from './components/AppHeader';
 import CardSection from './components/CardSection';
 import ChartSection from './components/ChartSection';
+import ChatSection from './components/ChatSection';
 import { OuterLayout } from './styles/layouts';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <MainStyled>
               <CardSection />
               <ChartSection />
+              <ChatSection />
           </MainStyled>
       </OuterLayout>
     </div>
