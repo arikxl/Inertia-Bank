@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Bounce, Roll } from 'react-reveal';
 
 import chart from '../assets/images/chart.svg';
 import ChartStats from './ChartStats';
@@ -22,16 +23,20 @@ const ChartSection = () => {
                         </div>
                     </div>
                     <div className="chart-right">
-                        <h2 className="secondary-heading">
-                            Manage your finances like a pro in no time
-                        </h2>
-                        <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                             Libero laborum qui provident voluptatum numquam atque odit et,
-                              similique labore, harum quibusdam consequatur
-                               tempore ipsa omnis.
-                        </p>
-                        <ButtonAnimated title="Learn More"/>
+                            <h2 className="secondary-heading">
+                                Manage your finances like a pro in no time
+                            </h2>
+                        <Roll right>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Libero laborum qui provident voluptatum numquam atque odit et,
+                                similique labore, harum quibusdam consequatur
+                                tempore ipsa omnis.
+                            </p>
+                        </Roll>
+                        <Bounce right>
+                            <ButtonAnimated title="Learn More" />
+                        </Bounce>
                     </div>
                 </div>
             </InnerLayout>
@@ -43,8 +48,15 @@ const ChartStyled = styled.section`
     .chart-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        @media screen and (max-width: 1347px){
+            grid-template-columns: repeat(1, 1fr);
+        }
+
         .chart-left {
             width: 80%;
+            @media screen and (max-width: 1347px){
+                width: 100%;
+            }
             .stats {
                 img {
                     box-shadow: 0px 25px 50px rgba(22, 25, 79, 0.05);

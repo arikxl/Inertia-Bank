@@ -46,6 +46,13 @@ const GlobalStyle = createGlobalStyle`
     span {
         color: var(--accent-pink);
     }
+    button {
+        curser: pointer;
+    }
+
+    .center-text{
+        text-align: center;
+    }
 `;
 
 export default GlobalStyle;

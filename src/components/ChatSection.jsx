@@ -49,6 +49,9 @@ const ChatStyled = styled.section`
     .chat-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        @media screen and (max-width: 1347px){
+            grid-template-columns: repeat(1, 1fr);
+        }
 
     }
     .chat-left{
